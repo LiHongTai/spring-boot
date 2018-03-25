@@ -1,0 +1,13 @@
+server:
+  port: 8088
+  
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    
+  datasource:
+    url: jdbc:h2:file:F:\\h2database\\ciscustdb
+    username: sa
+    password: sa
